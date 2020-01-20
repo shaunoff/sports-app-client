@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": ["import", "react"],
+  "rules": {},
+  "extends": ["@promoboxx/eslint-config/eslintrc", "prettier", "prettier/react"],
+  "settings": {
+    "eslint.packageManager": "yarn"
+  },
+  "globals": {
+    "fetch": false
+  }
+}
