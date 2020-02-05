@@ -4,17 +4,6 @@ import './index.css'
 import App from './components/App'
 import * as serviceWorker from './serviceWorker'
 
-//Redux
-// import { Provider } from 'react-redux'
-// import { store } from './config/redux'
-
-//export type AppInstanceProps = { :  }
-export const AppInstance: React.FC = () => {
-  return <App />
-}
-
-export default AppInstance
-
 ReactDOM.render(<App />, document.getElementById('root'))
 
 // If you want your app to work offline and load faster, you can change

@@ -21,7 +21,7 @@ export const fetchTodosEpic = (
           'X-RapidAPI-Key':
             '8a017e8d38msh65a761b2d05f4dbp14997djsn2202fd576cb2',
         },
-        url: 'https://api-football-v1.p.rapidapi.com/v2/leagueTable/524',
+        url: 'https://api-football-v1.p.rapidapi.com/v2/leagueTable/565',
       }).pipe(
         map((payload) => {
           console.log(payload)
